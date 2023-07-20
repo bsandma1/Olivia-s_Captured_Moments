@@ -7,7 +7,9 @@
 
 /* Header */
 
-header {
+/* Banner */
+
+#banner {
   height: 100vh;
   margin: auto;
   display: flex;
@@ -17,10 +19,9 @@ header {
   color: rgb(109, 109, 109);
   background-color: rgb(252, 247, 247);
   opacity: .8;
-  border-bottom: 3px solid rgb(109, 109, 109);
 }
 
-header .img-line-1 {
+#banner .img-line-1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -28,7 +29,7 @@ header .img-line-1 {
   height: 40%;
 }
 
-header .img-line-2 {
+#banner .img-line-2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,7 +37,7 @@ header .img-line-2 {
   height: 40%;
 }
 
-header .img-line-3 {
+#banner .img-line-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,31 +45,31 @@ header .img-line-3 {
   height: 40%;
 }
 
-header .img-container {
+#banner .img-container {
   width: auto;
   height: 100%;
   margin: 0 1rem;
   border: 1px solid rgb(109, 109, 109);
 }
 
-header .logo {
+#banner .logo {
   width: auto;
   height: 80%;
   opacity: .8;
 }
 
-header .logo img:hover {
+#banner .logo img:hover {
   box-shadow: none;
   cursor: default;
 }
 
-header img {
+#banner img {
   width: auto;
   height: 100%;
   object-fit: contain;
 }
 
-header .title {
+#banner .title {
   height: min-content;
   width: 40%;
   margin: 4rem 0 0 2rem;
@@ -77,34 +78,48 @@ header .title {
   color: rgb(109, 109, 109);
 }
 
-header h1 {
+#banner h1 {
   font-size: 1.5rem;
   font-family: 'Pacifico', cursive;
   letter-spacing: 0.4rem;
 }
 
-header .spectral {
+#banner .spectral {
   font-family: 'Spectral', serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
 }
 
-header .lato {
+#banner .lato {
   font-family: 'Lato', sans-serif;
 }
 
-header .img-container:hover {
+#banner .img-container:hover {
   cursor: pointer;
   margin-bottom: 1.5rem;
   box-shadow: 5px 5px;
   border: none;
 }
 
-header .img-container:active {
+#banner .img-container:active {
   margin-bottom: .75rem;
   box-shadow: none;
   border: 1px solid rgb(109, 109, 109);
+}
+
+/* First Seperator */
+
+.first-seperator {
+  height: 3rem;
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(252, 247, 247);
+}
+
+.first-seperator hr {
+  width: 100%;
+  color: rgb(109, 109, 109);
 }
 
 /* Description */
