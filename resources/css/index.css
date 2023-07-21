@@ -108,16 +108,16 @@
   border: 1px solid rgb(109, 109, 109);
 }
 
-/* First Seperator */
+/* Seperator */
 
-.first-seperator {
+.seperator {
   height: 3rem;
   display: flex;
   align-items: flex-end;
   background-color: rgb(252, 247, 247);
 }
 
-.first-seperator hr {
+.seperator hr {
   width: 100%;
   color: rgb(109, 109, 109);
 }
